@@ -33,12 +33,12 @@
                 </a>
             </div>
             <div class="col-12">
-                <a href="mailto:<?= $admin_email ?>" class="btn rounded-2 text-white px-0 fs-18 fw-300">
+                <a href="mailto:<?= $no_reply_email ?>" class="btn rounded-2 text-white px-0 fs-18 fw-300">
                     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V2.4L8 6.9L16 2.5V2C16 1.46957 15.7893 0.960859 15.4142 0.585786C15.0391 0.210714 14.5304 0 14 0Z" fill="#44D2FF" />
                         <path d="M7.5 8.9L0 4.7V12C0 12.5304 0.210714 13.0391 0.585786 13.4142C0.960859 13.7893 1.46957 14 2 14H14C14.5304 14 15.0391 13.7893 15.4142 13.4142C15.7893 13.0391 16 12.5304 16 12V4.7L8.5 8.9C8.3424 8.96924 8.17214 9.005 8 9.005C7.82786 9.005 7.6576 8.96924 7.5 8.9Z" fill="#44D2FF" />
                     </svg>
-                    <span class="ps-2"><?= $admin_email ?></span>
+                    <span class="ps-2"><?= $no_reply_email ?></span>
                 </a>
             </div>
         </div>

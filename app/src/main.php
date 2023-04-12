@@ -43,104 +43,104 @@
                                         <div class="row gy-1 pb-4">
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Truck Fianance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
-                                                        Truck Fianance
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Truck Finance" id="truckFinanceCheckbox">
+                                                    <label class="form-check-label" for="truckFinanceCheckbox">
+                                                        Truck Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Trailer Fianance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
-                                                        Trailer Fianance
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Trailer Finance" id="trailerFinanceCheckbox">
+                                                    <label class="form-check-label" for="trailerFinanceCheckbox">
+                                                        Trailer Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Heavy Machinery Fianace" id="heavyMachineryFianaceCheckbox" checked>
-                                                    <label class="form-check-label" for="heavyMachineryFianaceCheckbox">
-                                                        Heavy Machinery Fianace
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Heavy Machinery Finance" id="heavyMachineryFinanceCheckbox" checked>
+                                                    <label class="form-check-label" for="heavyMachineryFinanceCheckbox">
+                                                        Heavy Machinery Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Construction Equipment Finance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Construction Equipment Finance" id="constructionEquipmentFinanceCheckbox">
+                                                    <label class="form-check-label" for="constructionEquipmentFinanceCheckbox">
                                                         Construction Equipment Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Earthmoving Equipment Finance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Earthmoving Equipment Finance" id="earthmovingEquipmentFinanceCheckbox">
+                                                    <label class="form-check-label" for="earthmovingEquipmentFinanceCheckbox">
                                                         Earthmoving Equipment Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Farm Equipment Finance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Farm Equipment Finance" id="farmEquipmentFinanceCheckbox">
+                                                    <label class="form-check-label" for="farmEquipmentFinanceCheckbox">
                                                         Farm Equipment Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Vehicle Finance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Vehicle Finance" id="businessVehicleFinanceCheckbox">
+                                                    <label class="form-check-label" for="businessVehicleFinanceCheckbox">
                                                         Business Vehicle Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Ute Finance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Ute Finance" id="businessUteFinanceCheckbox">
+                                                    <label class="form-check-label" for="businessUteFinanceCheckbox">
                                                         Business Ute Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Van Finance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Van Finance" id="businessVanFinanceCheckbox">
+                                                    <label class="form-check-label" for="businessVanFinanceCheckbox">
                                                         Business Van Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Car Finance" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Car Finance" id="businessCarFinanceCheckbox">
+                                                    <label class="form-check-label" for="businessCarFinanceCheckbox">
                                                         Business Car Finance
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Asset Refinancing" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Asset Refinancing" id="assetFinanceCheckbox">
+                                                    <label class="form-check-label" for="assetFinanceCheckbox">
                                                         Asset Refinancing
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Small Business Loan" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Small Business Loan" id="smallBusinessFinanceCheckbox">
+                                                    <label class="form-check-label" for="smallBusinessFinanceCheckbox">
                                                         Small Business Loan
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Other" id="truckFiananceCheckbox">
-                                                    <label class="form-check-label" for="truckFiananceCheckbox">
+                                                    <input class="form-check-input" type="checkbox" name="financeType[]" value="Other" id="otherFinanceCheckbox">
+                                                    <label class="form-check-label" for="otherFinanceCheckbox">
                                                         Other
                                                     </label>
                                                 </div>
