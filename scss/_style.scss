@@ -212,6 +212,11 @@ header {
                         font-weight: 300;
                         opacity: 0.5;
                     }
+
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
                 }
 
                 input.form-control {

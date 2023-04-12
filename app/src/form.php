@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
 
         $subject = "Message from " . $site;
 
-        $financeType = $_POST['financeType'];
+        $financeType = implode(', ', $_POST['financeType']);
         $name = $_POST['fname'];
         $abn = $_POST['abn'];
         $phone = $_POST['phoneNumber'];
