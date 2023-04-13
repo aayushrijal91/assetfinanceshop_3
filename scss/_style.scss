@@ -212,11 +212,6 @@ header {
                         font-weight: 300;
                         opacity: 0.5;
                     }
-
-                    &:focus {
-                        outline: none;
-                        box-shadow: none;
-                    }
                 }
 
                 input.form-control {
@@ -225,6 +220,11 @@ header {
 
                 textarea.form-control {
                     padding: 13px 20px;
+                }
+
+                input:focus {
+                    outline: none;
+                        box-shadow: none;
                 }
             }
         }

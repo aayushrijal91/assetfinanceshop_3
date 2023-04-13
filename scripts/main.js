@@ -1,3 +1,5 @@
+document.cookie = "my_cookie=value; SameSite=None; Secure";
+
 document.querySelectorAll('a[href="#form"],a[href="#service"],a[href="#about"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -97,7 +99,8 @@ $('#return-to-top').on('click', () => {
 $('.formwidget_tab').hide();
 $('.formwidget_tab.active').fadeIn();
 
-$("#nextWidgetTab").on('click', function () {
+$("#nextWidgetTab").on('click', function (e) {
+    e.preventDefault();
     let currentTab = $('.formwidget_tab.active').attr('current-tab');
     let emailRegex = /\S+@\S+\.\S+/;
 
@@ -159,6 +162,7 @@ $("#nextWidgetTab").on('click', function () {
             .addClass('text-primary');
     } else if (currentTab > 2) {
         $(this).text('Submit')
+            .attr('type', 'submit')
             .removeClass('btn-white')
             .removeClass('text-primary')
             .addClass('btn-primary')
@@ -166,10 +170,12 @@ $("#nextWidgetTab").on('click', function () {
     }
 
     if (currentTab > 3) {
-        $("#widgetForm").submit();
-    }
+        document.getElementById("widgetForm").submit();
 
-    $(`.formwidget_tab[current-tab=${currentTab}]`).hide().removeClass('active');
-    $(`.formwidget_tab[current-tab=${(parseInt(currentTab) + 1).toString()}]`).fadeIn().addClass('active');
+        return false;
+    } else {
+        $(`.formwidget_tab[current-tab=${currentTab}]`).hide().removeClass('active');
+        $(`.formwidget_tab[current-tab=${(parseInt(currentTab) + 1).toString()}]`).fadeIn().addClass('active');
+    }
 })
 

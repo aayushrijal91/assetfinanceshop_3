@@ -25,7 +25,7 @@
                 <div class="col-lg-6">
                     <div class="form_wrapper<?= $thankyou_page ? ' thankyou' : '' ?>">
                         <?php if (!$thankyou_page) { ?>
-                            <form src="./src/form" method="POST" id="widgetForm">
+                            <form action="./src/form" method="POST" id="widgetForm">
                                 <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                                 <div class="formwidget_wrapper">
                                     <div class="formwidget_tab active" current-tab="1">
@@ -182,6 +182,7 @@
                                     </div>
                                 </div>
                                 <button type="button" id="nextWidgetTab" class="btn btn-primary border-primary text-white d-inline-flex rounded-20 px-5 px-xxl-7">Start</button>
+                                <!-- <button type="submit" id="submitTab" class="btn btn-primary border-primary text-white d-inline-flex rounded-20 px-5 px-xxl-7">Submit</button> -->
                             </form>
                         <?php } else { ?>
                             <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg">
