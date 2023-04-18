@@ -102,6 +102,7 @@ $('.formwidget_tab.active').fadeIn();
 $("#nextWidgetTab").on('click', function (e) {
     e.preventDefault();
     let currentTab = $('.formwidget_tab.active').attr('current-tab');
+    let phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
     let emailRegex = /\S+@\S+\.\S+/;
 
     if (currentTab == 3) {
@@ -126,6 +127,9 @@ $("#nextWidgetTab").on('click', function (e) {
 
         if (phoneInput.val().trim() == "") {
             phoneInput.next('.widgetAlert').show();
+            return;
+        } else if (!phoneRegex.test(phoneInput.val().trim())) {
+            phoneInput.next('.widgetAlert').show().text('Please provide valid phone number');
             return;
         } else {
             phoneInput.next('.widgetAlert').hide();
